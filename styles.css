@@ -9,7 +9,18 @@
 }
 h1
 {
-	font-size: 50px;
+	font-size: 57px;
+	margin-top: 100px;
+}
+#DV
+{
+	font-size: 20px;
+	float: left;
+	vertical-align: top;
+}
+.partie1 h2 
+{
+	margin-top: 125px;
 }
 .prenom
 {
@@ -51,3 +62,39 @@ h2
 
 }	
 
+.formation
+{
+	display: flex;
+	justify-content: space-between;
+	width: 750px;
+	border: solid green;
+}
+
+.experiences
+{
+	display: flex;
+	justify-content: space-between;
+	width: 750px;
+	border:solid green;
+
+}
+
+.titre
+{
+	width:500px;
+}
+
+#photo
+{
+	height: 325px;
+
+}
+#contact
+{
+	height: 390px;
+}
+
+#apropos
+{
+	height: 750px;
+}
