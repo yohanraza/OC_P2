@@ -1,12 +1,53 @@
+.page
+{
+	width:1190px;
+	height: 1684px;
+	font-family: calibri;
+	margin:	auto;
+	border: solid;
+	display: flex;
+}
+h1
+{
+	font-size: 50px;
+}
+.prenom
+{
+	color:#FBC02D;
+}
+h2
+{
+	font-size: 25px;
+
+}
 .partie2
 {
-	width: 500px;
+	order: 1;
+	width: 380px;
+	
+	background-color: #FBC02D ;
 	float: left;
-	background-color: yellow;
 
 }
 
-body
+.partie1 
 {
-	display: inline-block;
+	order: 2;
+	width: 810px;
+	margin-left: 50px;
+
+
 }
+
+
+.partie2 h2
+{
+	font-size: 25px;
+	background:#263238;
+	color: #FBC02D;
+	height: 45px;
+	text-align: center;
+	padding-top: 10px;
+
+}	
+
