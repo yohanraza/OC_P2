@@ -1,0 +1,12 @@
+.partie2
+{
+	width: 500px;
+	float: left;
+	background-color: yellow;
+
+}
+
+body
+{
+	display: inline-block;
+}
