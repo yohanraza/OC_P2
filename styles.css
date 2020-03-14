@@ -2,33 +2,34 @@
 {
 	width:1190px;
 	height: 1684px;
-	font-family: calibri;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 17px;
 	margin:	auto;
 	border: solid;
 	display: flex;
 }
 h1
 {
-	font-size: 57px;
+	font-size: 50px;
 	margin-top: 100px;
+	line-height:-50px;
 }
 #DV
 {
 	font-size: 20px;
 	float: left;
 	vertical-align: top;
+	line-height:-50px;
 }
-.partie1 h2 
-{
-	margin-top: 125px;
-}
+
 .prenom
 {
 	color:#FBC02D;
 }
 h2
 {
-	font-size: 25px;
+	font-size: 28px;
 
 }
 .partie2
@@ -49,6 +50,16 @@ h2
 
 
 }
+.partie1 h2
+{
+	border-bottom: 4px solid #FBC02D;
+	width: 750px;
+	margin-top: 100px;
+	line-height: 2em;
+
+	
+}
+
 
 
 .partie2 h2
@@ -56,9 +67,10 @@ h2
 	font-size: 25px;
 	background:#263238;
 	color: #FBC02D;
-	height: 45px;
+	height: 35px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 15px;
+
 
 }	
 
@@ -67,7 +79,8 @@ h2
 	display: flex;
 	justify-content: space-between;
 	width: 750px;
-	border: solid green;
+	margin-bottom: 50px;
+	
 }
 
 .experiences
@@ -75,8 +88,14 @@ h2
 	display: flex;
 	justify-content: space-between;
 	width: 750px;
-	border:solid green;
+	margin-bottom: 50px;
 
+}
+
+.date
+{
+	font-weight: bold;
+	font-size: 17px
 }
 
 .titre
@@ -96,5 +115,24 @@ h2
 
 #apropos
 {
-	height: 750px;
+	height: 700px;
+}
+
+#recommandations
+{
+	margin-top: 300px;
+}
+
+.textecontact
+{
+	padding-left:50px;
+	padding-top: 10px;
+
+}
+
+.texteapropos
+{
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
