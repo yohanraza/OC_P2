@@ -13,14 +13,14 @@ h1
 {
 	font-size: 50px;
 	margin-top: 100px;
-	line-height:-50px;
+	margin-bottom: 0px;
 }
 #DV
 {
 	font-size: 20px;
 	float: left;
 	vertical-align: top;
-	line-height:-50px;
+	margin-top: 0px;	
 }
 
 .prenom
@@ -110,6 +110,7 @@ h2
 }
 #contact
 {
+	margin-top: 300px;
 	height: 390px;
 }
 
@@ -135,4 +136,10 @@ h2
 	padding-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+#logoloisir
+{
+	font-size: 40px;
+	margin-left: 60px;
 }
