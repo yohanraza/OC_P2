@@ -1,4 +1,4 @@
-.page
+body
 {
 	width:1190px;
 	height: 1684px;
@@ -9,13 +9,13 @@
 	border: solid;
 	display: flex;
 }
-h1
+.main h1	
 {
 	font-size: 50px;
 	margin-top: 100px;
 	margin-bottom: 0px;
 }
-#DV
+.main header h2
 {
 	font-size: 20px;
 	float: left;
@@ -23,7 +23,7 @@ h1
 	margin-top: 0px;	
 }
 
-.prenom
+.txt_colored
 {
 	color:#FBC02D;
 }
@@ -32,7 +32,7 @@ h2
 	font-size: 28px;
 
 }
-.partie2
+.aside
 {
 	order: 1;
 	width: 380px;
@@ -42,7 +42,7 @@ h2
 
 }
 
-.partie1 
+.main 
 {
 	order: 2;
 	width: 810px;
@@ -50,19 +50,18 @@ h2
 
 
 }
-.partie1 h2
+.main .section h2
 {
 	border-bottom: 4px solid #FBC02D;
 	width: 750px;
-	margin-top: 100px;
+	margin-top: 10px;
 	line-height: 2em;
-
-	
+	text-transform: uppercase;
 }
 
 
 
-.partie2 h2
+.aside h2
 {
 	font-size: 25px;
 	background:#263238;
@@ -70,76 +69,91 @@ h2
 	height: 35px;
 	text-align: center;
 	padding-top: 15px;
+	text-transform: uppercase;
 
 
+}
+
+.formations
+{
+	margin-top: 150px;
 }	
 
-.formation
+.item
 {
 	display: flex;
 	justify-content: space-between;
 	width: 750px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	
 }
-
-.experiences
+.item h3
 {
-	display: flex;
-	justify-content: space-between;
-	width: 750px;
-	margin-bottom: 50px;
-
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.item h4
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.item p
+{
+	margin-top: 0px;
 }
 
-.date
+
+.item__date 
 {
 	font-weight: bold;
 	font-size: 17px
 }
 
-.titre
+.item__content
 {
 	width:500px;
 }
 
-#photo
+figure
 {
-	height: 325px;
+	
 
 }
-#contact
+.contact
 {
 	margin-top: 300px;
 	height: 390px;
 }
 
-#apropos
+
+.recommandations .item
 {
-	height: 700px;
+	width: 100px;
+	height: 100px;
 }
 
-#recommandations
-{
-	margin-top: 300px;
-}
 
-.textecontact
+.contact__item
 {
 	padding-left:50px;
 	padding-top: 10px;
 
 }
 
-.texteapropos
+.apropos__txt
 {
 	padding-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
-#logoloisir
+.loisirs
 {
-	font-size: 40px;
-	margin-left: 60px;
+	margin-top: 200px;
+}
+.loisirs__logo .fas
+{
+	font-size: 50px;
+	margin-left: 55px;
+
 }
