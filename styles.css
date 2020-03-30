@@ -114,11 +114,7 @@ h2
 	width:500px;
 }
 
-figure
-{
-	
 
-}
 .contact
 {
 	margin-top: 300px;
@@ -126,10 +122,9 @@ figure
 }
 
 
-.recommandations .item
+.section .recommandations .item
 {
-	width: 100px;
-	height: 100px;
+	display: block;
 }
 
 
