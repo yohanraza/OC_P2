@@ -96,9 +96,17 @@ h2 {
 	font-weight: bold;
 	font-size: 17px
 }
+.item__date .fas {
+  font-size: 10px;
+  margin-top: 0px;
+}
 
 .item__content {
 	width:500px;
+}
+
+.section i {
+  color: #FBC02D;
 }
 
 .contact {
@@ -130,18 +138,34 @@ h2 {
   margin-top: 0px;
 }
 
-.apropos__txt
-{
+.apropos__txt {
 	padding-top: 10px;
 	padding-left: 50px;
 	padding-right: 50px;
+  text-align: justify;
 }
 
 .loisirs {
 	margin-top: 200px;
 }
 
+.loisirs__logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
 .loisirs__logo .fas {
 	font-size: 50px;
-	margin-left: 55px;
+  margin-top: 7px;
+  color: #424242;
+}
+
+
+.cercle__logo {
+  width: 66px;
+  height: 66px;
+  border:3px solid #424242;
+  border-radius: 50%;
+  text-align: center;
 }
