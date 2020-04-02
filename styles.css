@@ -13,13 +13,13 @@ body {
 
 .main h1 {
 	font-size: 50px;
-	margin-top: 100px;
+	margin-top: 120px;
 	margin-bottom: 30px;
 }
 
 
 .main header h2 {
-	font-size: 20px;
+	font-size: 25px;
 	float: left;
 	margin-top: 0px;	
 }
@@ -71,8 +71,12 @@ h2 {
 }
 
 .formations {
-	margin-top: 150px;
-}	
+	margin-top: 190px;
+}
+
+.recommandations {
+  margin-top: 175px;
+}
 
 .item {
 	display: flex;
@@ -117,7 +121,7 @@ h2 {
 }
 
 .contact {
-	margin-top: 300px;
+	margin-top: 50px;
 	height: 390px;
 }
 
@@ -153,7 +157,7 @@ h2 {
 }
 
 .loisirs {
-	margin-top: 200px;
+	margin-top: 175px;
 }
 
 .loisirs__logo{
@@ -174,5 +178,19 @@ h2 {
   height: 66px;
   border:3px solid #424242;
   border-radius: 50%;
+  text-align: center;
+}
+
+.profile_pic {
+  width: 230px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: rgba(66,66,66,0.2);
+}
+
+.aside figure {
+  width: 240px;
+  height: 240px;
+  margin-top: 90px;
   text-align: center;
 }
