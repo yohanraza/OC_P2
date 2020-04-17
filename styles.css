@@ -1,13 +1,11 @@
 body {
-	width:1190px;
-	height: 1684px;
+	max-width: 1190px;
 	font-family: Arial;
 	font-weight: normal;
 	font-size: 17px;
 	margin:	auto;
-	border: solid;
 	display: flex;
-  color: #37474F;
+  color: #455A64;
 }
 
 
@@ -40,7 +38,7 @@ h2 {
 
 .aside {
 	order: 1;
-	width: 380px;
+	width: 30%;
 	background-color: #FBC02D;
 	float: left;
 }
@@ -48,13 +46,13 @@ h2 {
 
 .main {
 	order: 2;
-	width: 810px;
+	width: 70%;
 	margin-left: 50px;
 }
 
 .main .section h2 {
 	border-bottom: 4px solid #FBC02D;
-	width: 750px;
+	width: 100%;
 	margin-top: 10px;
 	line-height: 2em;
 	text-transform: uppercase;
@@ -78,10 +76,15 @@ h2 {
   margin-top: 175px;
 }
 
+
+
+
+
+
 .item {
 	display: flex;
 	justify-content: space-between;
-	width: 750px;
+	width: 100%;
 	margin-bottom: 25px;
 }
 
@@ -119,31 +122,37 @@ h2 {
 }
 
 .item__content {
-	width:500px;
+	width:70%;
 }
+
+
+
+
+
 
 .section i {
   color: #FBC02D;
 }
 
 .contact {
-	margin-top: 50px;
-	height: 390px;
+	margin-top: 25%;
+	height: 20%;
 }
 
 .recommandations .item {
 	display: inherit;
-  width: 250px;
+  width: 100%;
 }
 
 .recommandations .items__wrapper {
   display: grid;
   grid-template-columns: 1fr  1fr;
+  width: 100%;
 }
 
 .contact__item {
-	padding-left:50px;
-	padding-top: 10px;
+	padding-left:2.5em;
+	padding-top: 1.7em;
 
 }
 
@@ -153,51 +162,77 @@ h2 {
 }
 
 .contact__item p {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .apropos__txt {
-	padding-top: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-  text-align: justify;
+	padding: 1em 2.5em;
+	text-align: justify;
 }
 
 .loisirs {
 	margin-top: 175px;
 }
 
-.loisirs__logo{
+.loisirs__logo {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- }
+  padding: 0 2.5em;
+  position: relative;
+  bottom: 0.4em;
+}
 
 .loisirs__logo .fas {
-	font-size: 50px;
+	font-size: 200%;
   margin-top: 7px;
   color: #424242;
 }
 
 
 .cercle__logo {
-  width: 66px;
-  height: 66px;
+  width: 3em;
+  height: 3em;
   border:3px solid #424242;
   border-radius: 50%;
   text-align: center;
 }
 
 .profile_pic {
-  width: 230px;
+  width: 100%;
   border-radius: 50%;
   border: 5px solid;
   border-color: rgba(66,66,66,0.2);
 }
 
 .aside figure {
-  width: 240px;
-  height: 240px;
-  margin-top: 90px;
+  width: 75%;
+  height: auto;
+  margin-top: 25%;
   text-align: center;
+  margin-left: 12.5%;
 }
+
+@media screen and (max-width: 650px) {
+	.aside {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.main {
+		width: 100%;
+		margin-left: 1em;
+	}
+	body {
+		flex-direction: column;
+		width: auto;
+	}
+}
+
+
+/* Diplay direction raw 
+ 650- 1000 px tablettes
+ 0-650 px mobile
+ aside en haut
+ validateur
+ w3c */
