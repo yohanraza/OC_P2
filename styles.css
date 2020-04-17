@@ -171,7 +171,7 @@ h2 {
 }
 
 .loisirs {
-	margin-top: 175px;
+	margin-top: 50%;
 }
 
 .loisirs__logo {
@@ -213,7 +213,7 @@ h2 {
   margin-left: 12.5%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
 	.aside {
 		display: flex;
 		flex-direction: column;
