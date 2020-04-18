@@ -2,7 +2,7 @@ body {
 	max-width: 1190px;
 	font-family: Arial;
 	font-weight: normal;
-	font-size: 17px;
+	font-size: 19px;
 	margin:	auto;
 	display: flex;
   color: #455A64;
@@ -12,7 +12,7 @@ body {
 .main h1 {
 	font-size: 50px;
 	margin-top: 120px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 
@@ -38,7 +38,7 @@ h2 {
 
 .aside {
 	order: 1;
-	width: 30%;
+	width: 35%;
 	background-color: #FBC02D;
 	float: left;
 }
@@ -135,7 +135,7 @@ h2 {
 }
 
 .contact {
-	margin-top: 25%;
+	margin-top: 10%;
 	height: 20%;
 }
 
@@ -152,7 +152,6 @@ h2 {
 
 .contact__item {
 	padding-left:2.5em;
-	padding-top: 1.7em;
 
 }
 
@@ -206,11 +205,11 @@ h2 {
 }
 
 .aside figure {
-  width: 75%;
+  width: 65%;
   height: auto;
-  margin-top: 25%;
-  text-align: center;
-  margin-left: 12.5%;
+  margin-top: 10%;
+  justify-content: center;
+  margin-left: 16%;
 }
 
 @media screen and (max-width: 720px) {
@@ -227,8 +226,54 @@ h2 {
 		flex-direction: column;
 		width: auto;
 	}
+	.aside figure {
+		margin-top: 10%;
+
+	}
+
+	.contact {
+		margin-top: 0;
+	}
+
+	.loisirs {
+		margin-top: 0;
+	}
 }
 
+@media all and (min-width: 720px) and (max-width: 1000px) {
+	body {
+		flex-direction: column;
+		width: auto;
+	}
+	.aside {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.aside figure {
+		margin-top: 10%;
+	}
+
+	.main {
+		width: 100%;
+		margin-left: 1em;
+	}
+
+	.contact {
+		width: 32%;
+		margin-top: 0;
+	}
+
+	.apropos {
+		width: 65%;
+	}
+
+	.loisirs {
+		margin-top: 0;
+		width: 100%;
+	}
+}
 
 /* Diplay direction raw 
  650- 1000 px tablettes
