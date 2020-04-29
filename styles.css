@@ -5,7 +5,7 @@ body {
 	font-size: 19px;
 	margin:	auto;
 	display: flex;
-  color: #455A64;
+    color: #455A64;
 }
 
 
@@ -91,13 +91,13 @@ h2 {
 .item h3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .item h4 {
 	margin-top: 10px;
 	margin-bottom: 5px;
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .item p {
@@ -170,7 +170,7 @@ h2 {
 }
 
 .loisirs {
-	margin-top: 70%;
+	margin-top: 140%;
 }
 
 .loisirs__logo {
@@ -217,8 +217,9 @@ h2 {
 		width: 100%;
 	}
 	.main {
-		width: 100%;
-		margin-left: 1em;
+		width: 99%;
+		margin-left: 0;
+		padding-left: 1%;
 	}
 	body {
 		flex-direction: column;
@@ -229,12 +230,29 @@ h2 {
 
 	}
 
+	.item {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.item__date {
+		font-size: 1.2em;
+		font-weight: 300;
+		margin-bottom: 1em;
+	}
+
+	.item__content {
+		margin-left: 6%;
+	}
+
 	.contact {
 		margin-top: 0;
 	}
 
 	.loisirs {
 		margin-top: 0;
+		margin-bottom: 1em;
 	}
 }
 
