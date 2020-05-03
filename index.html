@@ -114,7 +114,7 @@
 		</section>
 		<section class="apropos">
 			<h2>A propos de moi</h2>
-			<p class="apropos__txt">Je suis passionné de technologie et de finance. Je me suis initié à la programmation en C à l'âge de 14 ans. Et je suis une formation de developpeur web actuelement sur Openclassrooms. La finance et l'economie sont également une passion pour moi puisque je me suis initié aux marchés financier en auto didacte il y a plus d'un an. </p>
+			<p class="apropos__txt">Je suis passionné de technologie et de finance. Je me suis initié à la programmation en C à l'âge de 14 ans. Et je suis une formation de développeur web actuellement sur Openclassrooms. La finance et l'économie sont également une passion pour moi puisque je me suis initié aux marchés financier en auto didacte il y a plus d'un an. </p>
 		</section>
 		<section class="loisirs">
 			<h2>Loisirs</h2>
